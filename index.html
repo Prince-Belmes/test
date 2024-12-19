@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Wireframe</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color: #f0f0f0;
+        }
+        .logo {
+            width: 40px;
+            height: 40px;
+            background: gray;
+            border-radius: 50%;
+        }
+        nav {
+            display: flex;
+            gap: 15px;
+        }
+        nav a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .login {
+            padding: 5px 10px;
+            background: #ccc;
+            border-radius: 5px;
+            text-decoration: none;
+            color: black;
+        }
+        .search {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .search input {
+            padding: 5px;
+        }
+        main {
+            padding: 20px;
+        }
+        .banner {
+            width: 100%;
+            height: 200px;
+            background: gray;
+            margin-bottom: 20px;
+        }
+        .content {
+            display: flex;
+            gap: 20px;
+        }
+        .box {
+            flex: 1;
+            height: 150px;
+            background: gray;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+        <div class="search">
+            <input type="text" placeholder="Search">
+            <button>🔍</button>
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Headlines</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+            <a class="login" href="#">Login</a>
+        </nav>
+    </header>
+    <main>
+        <div class="banner"></div>
+        <h2>Hottest News</h2>
+        <div class="content">
+            <div class="box"></div>
+        </div>
+        <h2>Global Trending</h2>
+        <div class="content">
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </main>
+</body>
+</html>
